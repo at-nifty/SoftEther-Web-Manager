@@ -1,10 +1,4 @@
-# SoftEther Web Manager (MVP)
-&lt;p align="center">
-&lt;img src="https://img.shields.io/badge/Status-MVP_in_Progress-blue?style=flat-square" alt="Status: MVP in Progress">
-&lt;img src="https://img.shields.io/badge/SoftEther_VPN-v4.44_Supported-green?style=flat-square" alt="SoftEther VPN v4.44 Supported">
-&lt;img src="https://img.shields.io/badge/License-MIT-lightgrey?style=flat-square" alt="License: MIT">
-&lt;/p>
-
+# SoftEther Web Manager
 SoftEther Web Manager is a web-based application designed to provide intuitive GUI management for SoftEther VPN Server. It aims to offer a "software-less" and multi-platform solution for managing SoftEther VPN Server, especially those running on Linux environments.
 
 This MVP (Minimum Viable Product) version focuses on establishing the core connection and authentication functionalities, along with basic information retrieval. Future versions will progressively implement a comprehensive set of management features, aiming to match the capabilities of the Windows server manager.
@@ -16,16 +10,6 @@ Linux VPN Server Focused: Optimized for managing SoftEther VPN Server (v4.44 ant
 JSON-RPC API Utilization: Directly leverages the SoftEther VPN Server's JSON-RPC API, eliminating the need for vpncmd text parsing, leading to robust and stable communication.
 Security Conscious: The SoftEther VPN Server's administrative password is securely handled by the web application's backend.
 ## ⚙️ Technology Stack
-&lt;p align="left">
-&lt;img src="https://img.shields.io/badge/Frontend-React-61DAFB?style=flat-square&amp;logo=react&amp;logoColor=white" alt="React">
-&lt;img src="https://img.shields.io/badge/Build_Tool-Vite-646CFF?style=flat-square&amp;logo=vite&amp;logoColor=white" alt="Vite">
-&lt;img src="https://img.shields.io/badge/CSS_Framework-Tailwind_CSS-06B6D4?style=flat-square&amp;logo=tailwindcss&amp;logoColor=white" alt="Tailwind CSS">
-&lt;img src="https://img.shields.io/badge/Backend-Node.js-339933?style=flat-square&amp;logo=nodedotjs&amp;logoColor=white" alt="Node.js">
-&lt;img src="https://img.shields.io/badge/Web_Framework-Express-000000?style=flat-square&amp;logo=express&amp;logoColor=white" alt="Express.js">
-&lt;img src="https://img.shields.io/badge/API-SoftEther_JSON--RPC-red?style=flat-square" alt="SoftEther JSON-RPC API">
-&lt;img src="https://img.shields.io/badge/Protocol-HTTPS-28A745?style=flat-square&amp;logo=https&amp;logoColor=white" alt="HTTPS">
-&lt;/p>
-
 Frontend: React (with Vite and Tailwind CSS)
 Backend: Node.js (with Express)
 API Communication: SoftEther VPN Server JSON-RPC API
