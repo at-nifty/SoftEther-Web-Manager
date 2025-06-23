@@ -3,7 +3,7 @@ SoftEther Web Manager is a web-based application designed to provide intuitive G
 
 This MVP (Minimum Viable Product) version focuses on establishing the core connection and authentication functionalities, along with basic information retrieval. Future versions will progressively implement a comprehensive set of management features, aiming to match the capabilities of the Windows server manager.
 
-## 🚀 Key Features (MVP)
+## 🚀 Key Features
 Web-based GUI Management: Manage your SoftEther VPN Server from any OS (Windows, macOS, Linux, tablets, etc.) using just a web browser. No specific native application installation is required on the client side.
 "Software-less" Operation: No need to install any dedicated management software on your client device.
 Linux VPN Server Focused: Optimized for managing SoftEther VPN Server (v4.44 anticipated) running on Linux environments.
@@ -51,9 +51,6 @@ Clone the repository:
 git clone https://github.com/your-username/softether-web-manager.git
 cd softether-web-manager
 Install backend dependencies:
-```
-```Bash
-
 npm install
 ```
 # How to install
@@ -98,14 +95,14 @@ This will launch both the Express backend server and the React frontend.
 Access in Web Browser:
 Open your web browser and navigate to https://localhost:<webAppPort> (e.g., https://localhost:3000).
 
-## 🔐 Security Considerations (MVP Stage)
+## 🔐 Security Considerations
 At the MVP stage, the following security policies are in place:
 
 VPN Server Administrator Password: Input by the user on the login screen, it's held temporarily only during the session by the backend. No persistent storage is performed.
 Session Management: The web application manages its own login sessions and holds the sessionId returned by the SoftEther API.
 Self-Signed SSL Certificates: For development simplicity, config.insecure = true allows self-signed certificates. However, for production, the use of official certificates is highly recommended.
 Web App's Own Login Authentication: Currently, the SoftEther VPN Server's administrator password serves as the login password for the web application. Future versions will implement independent user management and authentication for the web app.
-## 🗺️ Roadmap (Post-MVP)
+## 🗺️ Roadmap
 After the MVP release, the following features are planned for phased implementation. The goal is to replicate the functionality and user experience of the Windows SoftEther VPN Server Manager on the web.
 
 Create/Delete Virtual HUBs
