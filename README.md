@@ -1,8 +1,6 @@
 # SoftEther Web Manager
 SoftEther Web Manager is a web-based application designed to provide intuitive GUI management for SoftEther VPN Server. It aims to offer a "software-less" and multi-platform solution for managing SoftEther VPN Server, especially those running on Linux environments.
 
-This MVP (Minimum Viable Product) version focuses on establishing the core connection and authentication functionalities, along with basic information retrieval. Future versions will progressively implement a comprehensive set of management features, aiming to match the capabilities of the Windows server manager.
-
 ## 🚀 Key Features
 Web-based GUI Management: Manage your SoftEther VPN Server from any OS (Windows, macOS, Linux, tablets, etc.) using just a web browser. No specific native application installation is required on the client side.
 "Software-less" Operation: No need to install any dedicated management software on your client device.
