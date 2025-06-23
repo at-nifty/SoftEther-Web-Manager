@@ -46,28 +46,31 @@ Confirm the port number (e.g., 443, 5555) on which the API is listening.
 Setup Steps
 Clone the repository:
 
-Bash
+```Bash
 
 git clone https://github.com/your-username/softether-web-manager.git
 cd softether-web-manager
 Install backend dependencies:
-
-Bash
+```
+```Bash
 
 npm install
-# Or yarn install
+```
+# How to install
 Install frontend dependencies:
 
-Bash
+```Bash
 
 cd frontend
 npm install
-# Or yarn install
+```
+# Other install
+```Bash
 cd ..
 Configure config.json:
 Create a config.json file and set the SoftEther VPN Server connection information.
-
-JSON
+```
+```JSON
 
 {
   "vpnServerHost": "your_vpn_server_ip_or_hostname",
@@ -75,6 +78,7 @@ JSON
   "webAppPort": 3000,        // Port for this Web Manager application
   "insecure": true           // Set to true to accept self-signed SSL certificates (for development)
 }
+```
 Note: insecure: true is for development only. For production environments, it is strongly recommended to use a trusted SSL certificate.
 
 ## ▶️ How to Run
@@ -84,9 +88,10 @@ Ensure your SoftEther VPN Server is running and its JSON-RPC API is enabled as c
 Start the Web Manager:
 From the project's root directory, run the following command:
 
-Bash
+```Bash
 
 npm start
+```
 # Or node index.js
 This will launch both the Express backend server and the React frontend.
 
