@@ -17,7 +17,7 @@ Protocol: HTTPS (supports self-signed SSL certificates)
 Authentication: Uses the SoftEther VPN Server's "administrator password" (session management handled by the web app)
 ## 📦 Project Structure
 The main file structure of the project is as follows:
-
+```
 softether-web-manager/
 ├── config.json               # VPN Server host, port, TLS settings, etc.
 ├── vpnclient.js              # SoftEther JSON-RPC API wrapper (for backend)
@@ -36,6 +36,7 @@ softether-web-manager/
 ├── package.json              # Backend dependencies (npm scripts, etc.)
 ├── .gitignore                # Files to be ignored by Git
 └── README.md                 # This document
+```
 ## 🛠️ Development Environment Setup
 Prerequisites
 Node.js (LTS version recommended) and npm/yarn
